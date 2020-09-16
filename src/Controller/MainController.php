@@ -7,12 +7,10 @@ use App\Model\CategoryModel;
 use App\Model\NewsModel;
 use App\Model\UserModel;
 
-class NewsController extends Controller
+class MainController extends Controller
 {
-
     public function index()
     {
-        //vista principal del portal de noticias
         $newsModel = App::getModel(NewsModel::class);
         $categoryModel = App::getModel(CategoryModel::class);
         $userModel = App::getModel(UserModel::class);
@@ -44,29 +42,26 @@ class NewsController extends Controller
             $header = "Resultados de la busqueda($text)";
             //array de noticias por busqueda(coge como parametro el texto a buscar, la pagina actual y el total de paginas de la paginacion)
             $news = $newsModel->getByTextPaginated($text, $currentPage, $totalPages);
-            return $this->getResponse()->renderView('news', 'default', compact('newsModel', 'categoryModel', 'userModel', 'users', 'categories', 'text', 'news', 'categoryid', 'totalPages', 'currentPage', 'url', 'header'));
+            return $this->getResponse()->renderView('index', 'default', compact('newsModel', 'categoryModel', 'userModel', 'users', 'categories', 'text', 'news', 'categoryid', 'totalPages', 'currentPage', 'url', 'header'));
         } elseif (!empty($date1) || !empty($date2)) {
             //url de filtraje de fechas mientras se pagina
             $url = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "date1?=$date1&date2?=$date2&";
             $header = "Resultados del filtraje ($date1 y $date2)";
             ///filtraje por fechas (coge como parametro el texto a buscar, la pagina actual y el total de paginas de la paginacion)
             $news = $newsModel->getByDatePaginated($date1, $date2, $currentPage, $totalPages);
-            return $this->getResponse()->renderView('news', 'default', compact('newsModel', 'categoryModel', 'categoryid', 'userModel', 'users', 'date1', 'date2', 'news', 'categories', 'totalPages', 'currentPage', 'url', 'header'));
+            return $this->getResponse()->renderView('index', 'default', compact('newsModel', 'categoryModel', 'categoryid', 'userModel', 'users', 'date1', 'date2', 'news', 'categories', 'totalPages', 'currentPage', 'url', 'header'));
         } elseif (!empty($categoryid) && -200 != $categoryid) {
             //url querystring de filtraje por fecha
             $url = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) . "category?=$categoryid&";
             $header = "Resultados de categoria($categoryid)";
             //array por categorias (coge como parametro el texto a buscar, la pagina actual y el total de paginas de la paginacion)
             $news = $newsModel->getByCategoryPaginated($categoryid, $currentPage, $totalPages);
-            return $this->getResponse()->renderView('news', 'default', compact('newsModel', 'categoryModel', 'categoryid', 'userModel', 'users', 'news', 'categories', 'totalPages', 'currentPage', 'url', 'header'));
+            return $this->getResponse()->renderView('index', 'default', compact('newsModel', 'categoryModel', 'categoryid', 'userModel', 'users', 'news', 'categories', 'totalPages', 'currentPage', 'url', 'header'));
         } else {
             $header = "Ultimas noticias";
             //array de noticias paginadas
             $news = $newsModel->getAll($currentPage, $totalPages);
-            return $this->getResponse()->renderView('news', 'default', compact('newsModel', 'categoryModel', 'userModel', 'users', 'categoryid', 'categories', 'currentPage', 'totalPages', 'news', 'header'));
+            return $this->getResponse()->renderView('index', 'default', compact('newsModel', 'categoryModel', 'userModel', 'users', 'categoryid', 'categories', 'currentPage', 'totalPages', 'news', 'header'));
         }
     }
-
-
-
 }

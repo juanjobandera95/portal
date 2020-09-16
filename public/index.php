@@ -2,7 +2,6 @@
 
 use App\Core\AppException;
 use App\Core\Request;
-
 try {
     require_once __DIR__ . '/../src/bootstrap.php';
     $request = new Request();
@@ -11,3 +10,4 @@ try {
 } catch (AppException $appException) {
     echo $appException->handleException();//se ejecutara la excepcion global
 }
+

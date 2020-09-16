@@ -1,38 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="43794da6-a556-4059-82df-7e7aea878008" name="Default Changelist" comment="" />
+    <list default="true" id="43794da6-a556-4059-82df-7e7aea878008" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locales/css/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locales/js/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partials/paginator.partial.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/InfoController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/CategoryModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/NewsModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/UserModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/UploadedFile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/layouts/default-news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/news.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/portal-turist.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portal-turist.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/header.partial.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/header.partial.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/sub-header.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/sub-header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/NewsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/News.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/News.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/default.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="portal.xabiaquebonicaeres" id="02249894-30ec-41d7-bbdf-6bf2b805c479" name="portal.xabiaquebonicaeres" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/tecnickcom/tcpdf" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/plasticbrain/php-flash-messages" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1hMdteBMuH4DLLjzjmxFp2UWun4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Core" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/partials" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\portal-turist" />
-      <recent name="C:\xampp\htdocs\portal-turist\locales" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\portal-turist\partials" />
       <recent name="C:\xampp\htdocs\portal-turist\src\Core" />
       <recent name="C:\xampp\htdocs\portal-turist\src" />
       <recent name="C:\xampp\htdocs\portal-turist\public" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\portal-turist" />
+      <recent name="C:\xampp\htdocs\portal-turist\locales" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" editBeforeRun="true" browser="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" server_name="portal.xabiaquebonicaeres">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -42,26 +137,66 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599825110506</updated>
-      <workItem from="1599825111574" duration="8828000" />
+      <workItem from="1599825111574" duration="18151000" />
+      <workItem from="1600175952461" duration="614000" />
+      <workItem from="1600176585160" duration="960000" />
+      <workItem from="1600177555357" duration="778000" />
+      <workItem from="1600178345982" duration="1905000" />
+      <workItem from="1600189676861" duration="7423000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="348" y="67" key="#Servers" timestamp="1600191588274">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="348" y="67" key="#Servers/0.0.1536.824@0.0.1536.824" timestamp="1600191588274" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600281082144">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1600281082144" />
+    <state x="545" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600087362791">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="545" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1600087362791" />
     <state x="574" y="94" key="#com.intellij.ide.util.MemberChooser" timestamp="1599841776830">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="94" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1599841776830" />
-    <state x="582" y="135" key="NewPhpClassDialog" timestamp="1599840930057">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600278692764">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="582" y="135" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1599840930057" />
-    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1599843740047">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600278692764" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599845431162">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1599843740047" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599845431162" />
+    <state x="582" y="135" key="NewPhpClassDialog" timestamp="1600176086975">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="582" y="135" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1600176086975" />
+    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1600176073339">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1600176073339" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1599845284412">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

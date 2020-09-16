@@ -22,11 +22,20 @@
     </style>
 </head>
 <body>
+
 <?php
 require_once("../partials/header.partial.php");
 ?>
+
 <section class="container-fluid ">
+    <img src="../montgo.jpg">
+    <?php
+    require_once("../partials/sub-header.php");
+    ?>
+    <br>
+
     <?= $mainContent; ?>
+
     <br>
 </section>
 

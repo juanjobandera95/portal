@@ -5,8 +5,6 @@ namespace App\Core;
 
 use App\Exception\AuthorizationException;
 use App\Exception\NotFoundException;
-
-
 /**
  * Class Router
  */
